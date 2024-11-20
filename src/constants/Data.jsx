@@ -1,0 +1,22 @@
+export { default as Logo } from "../assets/images/Logo.png";
+export { default as Product1 } from "../assets/images/Product1.jpeg";
+export { default as Product2 } from "../assets/images/Product2.jpg";
+export { default as Product3 } from "../assets/images/Product3.jpg";
+export { default as Product4 } from "../assets/images/Product4.jpeg";
+export { default as Product5 } from "../assets/images/Product5.jpg";
+export { default as Product6 } from "../assets/images/Product6.jpeg";
+export { default as Product7 } from "../assets/images/Product7.jpg";
+export { default as Product8 } from "../assets/images/Product8.jpg";
+export { default as Product9 } from "../assets/images/Product9.jpeg";
+export { default as HeroBanner1 } from "../assets/images/HeroBanner1.jpg";
+export { default as HeroBanner2 } from "../assets/images/HeroBanner2.jpg";
+export { default as HeroBanner3 } from "../assets/images/HeroBanner3.jpg";
+export { default as HeroBanner4 } from "../assets/images/HeroBanner4.jpg";
+export { default as HeroBanner5 } from "../assets/images/HeroBanner5.jpg";
+export { default as HeroBanner6 } from "../assets/images/HeroBanner6.jpg";
+export { default as HeroBanner7 } from "../assets/images/HeroBanner7.jpg";
+export { default as HeroBanner8 } from "../assets/images/HeroBanner8.jpg";
+export { default as HeroBanner9 } from "../assets/images/HeroBanner9.webp";
+export { default as HeroBanner10 } from "../assets/images/HeroBanner10.jpg";
+export { default as CEO } from "../assets/images/CEO.jpg"
+

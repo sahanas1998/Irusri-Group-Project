@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+React E-Commerce Application
+Assignment for Irusri Group Company
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description:
+This is a simple e-commerce application built with React and Tailwind CSS, implementing user authentication, product listing, and a shopping cart. The application leverages:
+- Redux for state management
+- Formik for form validation
+- React Router for navigation
+- Swiper for creating responsive sliders
 
-## Available Scripts
+The app is responsive across laptops, tablets, and mobile devices. It provides a user-friendly experience with features like routing and local storage integration for seamless usability.
 
-In the project directory, you can run:
+Setup and Installation:
 
-### `npm start`
+Clone the repository:
+git clone <repository-url>
+cd <repository-folder>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install dependencies:
+npm install
+npm install react-router-dom
+npm install react-icons
+npm install swiper
+npm install formik
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Run the project:
+npm start
+Open your browser and navigate to: http://localhost:3000/
 
-### `npm test`
+Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User Authentication
+- Sign Up: Users can register with their full name, email, password, and confirm password.
+- Log In: Users can log in using their email and password.
+- Authentication state is managed using local storage.
 
-### `npm run build`
+Product List
+- Displays a list of products with the following attributes:
+- Name
+- Price
+- Description
+- Image
+- Size
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Shopping Cart
+- Add to Cart: Add products to the cart from the product list.
+- View Cart:
+- View the cart with details like:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Image
+Name
+Size
+Quantity
+Individual Prices
+Total Price
+Remove items from the cart.
+Adjust the quantity of items in the cart.
+Total Cost: Displays the total cost of all items.
+Category Filtering: Filter products by category.
+Home Page
+Includes the following components:
+- Hero Banner
+- About Us
+- Contact Us Form
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Header and Footer
+- Navigates to other components and URLs.
 
-### `npm run eject`
+Global State Management
+- Global access to data is implemented using Redux, such as counting selected products.
+- Data is passed from the Blog page to the Header component.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Deployment:
+The application is deployed on Netlify.
+Access it here: https://vavavsport.netlify.app/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technologies Used:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Frontend:
+- React
+- Tailwind CSS
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+State Management:
+- Redux
 
-## Learn More
+Form Management:
+- Formik
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Additional Tools:
+- React Icons
+- Swiper
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute or report any issues in the repository.
